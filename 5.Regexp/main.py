@@ -26,17 +26,37 @@ def format_file(contacts):
     return result
 
 
+def merge_duplicates(contacts):
+    merge_contacts = [contacts[0]]
+
+    for contact in contacts[1:]:
+        lastname, firstname, surname = contact[0], contact[1], contact[2]
+        organization, position = contact[3], contact[4]
+        phone, email = contact[5], contact[6]
+
+        for column in contacts[1:]:
+            if column[0] == lastname and column[1] == firstname:
+                if surname == '' and column[2] != '':
+                    contact[2] = column[2]
+                if organization == '' and column[3] != '':
+                    contact[3] = column[3]
+                if position == '' and column[4] != '':
+                    contact[4] = column[4]
+                if phone == '' and column[5] != '':
+                    contact[5] = column[5]
+                if email == '' and column[6] != '':
+                    contact[6] = column[6]
+
+        if contact[:7] not in merge_contacts:
+            merge_contacts.append(contact[:7])
+
+    return merge_contacts
+
+
 with open('phonebook_raw.csv', encoding='utf-8') as f:
     contacts = list(csv.reader(f))
-    edit_contacts = format_file(contacts)
+    edit_contacts = merge_duplicates(format_file(contacts))
 
 with open('new_contacts.csv', 'w', encoding='utf-8', newline='') as f:
     datawriter = csv.writer(f, delimiter=',')
     datawriter.writerows(edit_contacts)
-
-# fullname_pattern = r'^[А-Я]\w+[ ,][А-Я]\w+[ ,]'
-# surname_pattern = r'[А-Я]\w+((вич)|(вна))'
-# organization_pattern = r'(ФНС)|(Минфин)'
-# position_pattern = r'((главный.*лиц)|(cоветник.*технологий))'
-# phone_pattern = r'((\+7)|(8))\s?\(?(\d{3})\)?\s?-?(\d{3})-?(\d{2})-?(\d{2})( \(?(доб\.) (\d{4})\)?)?'
-# email_pattern = r'[A-z].*ru'
