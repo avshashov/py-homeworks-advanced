@@ -1,0 +1,51 @@
+[
+  {
+    "Должность": "Python разработчик",
+    "Зарплата": "з/п не указана",
+    "Компания": "Банк ВТБ (ПАО)",
+    "Город": "Санкт-Петербург",
+    "Ссылка на вакансию": "https://spb.hh.ru/vacancy/72232525?from=vacancy_search_list&query=python"
+  },
+  {
+    "Должность": "Python-разработчик (Middle)",
+    "Зарплата": "от 150 000 руб. на руки",
+    "Компания": "ООО Айти Профи Клуб",
+    "Город": "Москва",
+    "Ссылка на вакансию": "https://spb.hh.ru/vacancy/73026899?from=vacancy_search_list&query=python"
+  },
+  {
+    "Должность": "Middle разработчик Python / Django",
+    "Зарплата": "от 60 000 до 140 000 руб. на руки",
+    "Компания": "ООО Рекламное Агентство Дельта",
+    "Город": "Москва",
+    "Ссылка на вакансию": "https://spb.hh.ru/vacancy/72752600?from=vacancy_search_list&query=python"
+  },
+  {
+    "Должность": "Backend developer Python",
+    "Зарплата": "от 3 500 до 5 000 USD на руки",
+    "Компания": "Arival",
+    "Город": "Москва",
+    "Ссылка на вакансию": "https://spb.hh.ru/vacancy/72696136?from=vacancy_search_list&query=python"
+  },
+  {
+    "Должность": "Программист Python",
+    "Зарплата": "з/п не указана",
+    "Компания": "АО Концерн радиостроения Вега, филиал в г. Санкт-Петербург",
+    "Город": "Санкт-Петербург",
+    "Ссылка на вакансию": "https://spb.hh.ru/vacancy/71806503?from=vacancy_search_list&query=python"
+  },
+  {
+    "Должность": "Python Developer (Backend)",
+    "Зарплата": "з/п не указана",
+    "Компания": "Samsung Research Russia",
+    "Город": "Москва",
+    "Ссылка на вакансию": "https://spb.hh.ru/vacancy/71158485?from=vacancy_search_list&query=python"
+  },
+  {
+    "Должность": "Middle\\Senior Python Developer",
+    "Зарплата": "от 150 000 до 300 000 руб. на руки",
+    "Компания": "ООО Асеано Технологии",
+    "Город": "Москва",
+    "Ссылка на вакансию": "https://spb.hh.ru/vacancy/73044031?from=vacancy_search_list&query=python"
+  }
+]
