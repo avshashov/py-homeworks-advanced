@@ -10,7 +10,7 @@ def logger(path):
 
             logs = [date, old_function.__name__, args, kwargs, res]
 
-            action = 'a' if os.path.exists('main.log') else 'w'
+            action = 'a' if os.path.exists(path) else 'w'
             with open(path, action) as f:
                 for row in logs:
                     print(row, file=f)
