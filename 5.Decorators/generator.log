@@ -1,0 +1,84 @@
+2022-12-06 12:13:19.692482
+flat_generator
+([[['a'], ['b', 'c']], ['d', 'e', [['f'], 'h'], False], [1, 2, None, [[[[['!']]]]], []]],)
+{}
+<generator object flat_generator at 0x0000014394A804A0>
+__________
+2022-12-06 12:13:19.693895
+flat_generator
+([['a'], ['b', 'c']],)
+{}
+<generator object flat_generator at 0x0000014394A81EE0>
+__________
+2022-12-06 12:13:19.694371
+flat_generator
+(['a'],)
+{}
+<generator object flat_generator at 0x0000014394A81E00>
+__________
+2022-12-06 12:13:19.695369
+flat_generator
+(['b', 'c'],)
+{}
+<generator object flat_generator at 0x0000014394A81E00>
+__________
+2022-12-06 12:13:19.741624
+flat_generator
+(['d', 'e', [['f'], 'h'], False],)
+{}
+<generator object flat_generator at 0x0000014394A81EE0>
+__________
+2022-12-06 12:13:19.742242
+flat_generator
+([['f'], 'h'],)
+{}
+<generator object flat_generator at 0x0000014394A81E00>
+__________
+2022-12-06 12:13:19.742242
+flat_generator
+(['f'],)
+{}
+<generator object flat_generator at 0x0000014394A81E70>
+__________
+2022-12-06 12:13:19.743240
+flat_generator
+([1, 2, None, [[[[['!']]]]], []],)
+{}
+<generator object flat_generator at 0x0000014394A81EE0>
+__________
+2022-12-06 12:13:19.744491
+flat_generator
+([[[[['!']]]]],)
+{}
+<generator object flat_generator at 0x0000014394A81E00>
+__________
+2022-12-06 12:13:19.744491
+flat_generator
+([[[['!']]]],)
+{}
+<generator object flat_generator at 0x0000014394A81E70>
+__________
+2022-12-06 12:13:19.745235
+flat_generator
+([[['!']]],)
+{}
+<generator object flat_generator at 0x0000014394979A10>
+__________
+2022-12-06 12:13:19.746232
+flat_generator
+([['!']],)
+{}
+<generator object flat_generator at 0x0000014394F05F50>
+__________
+2022-12-06 12:13:19.746232
+flat_generator
+(['!'],)
+{}
+<generator object flat_generator at 0x0000014394F05EE0>
+__________
+2022-12-06 12:13:19.747230
+flat_generator
+([],)
+{}
+<generator object flat_generator at 0x0000014394A81E00>
+__________
