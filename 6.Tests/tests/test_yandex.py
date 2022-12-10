@@ -6,7 +6,7 @@ def test_create_folder():
     status_code = create_folder()
     assert status_code == 201
 
-def test_exist_folder():
+def test_exists_folder():
     url = 'https://cloud-api.yandex.net/v1/disk/resources'
     headers = {'Authorization': f'OAuth {ya_token.token}'}
     params = {'path': 'Тестовая папка'}
@@ -14,3 +14,6 @@ def test_exist_folder():
 
     assert response.json()['name'] == 'Тестовая папка'
 
+def test_folder_already_exists():
+    status_code = create_folder()
+    assert status_code == 409

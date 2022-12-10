@@ -5,3 +5,4 @@
 6.Tests/.idea
 6.Tests/.pytest_cache
 6.Tests/tests/.pytest_cache
+6.Tests/chromedriver.exe
